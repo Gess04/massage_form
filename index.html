@@ -48,7 +48,7 @@ function closeForm(html) {
 }
 
 // Consulta el estado actual; conserva fecha y horario elegidos si siguen libres
-const API = 'https://script.google.com/macros/s/AKfycby6B3n0ryolvf8beI1y4Itoes_LSYuLnSWTtS_V3nUbGArUUL3vHvaqjcVFTdOo9LjU/exec';
+const API = 'https://script.google.com/macros/s/AKfycbx2Q8db-hMZL9vNxjfk2oEgLMzipklSY3TDUjz-XGihcQe6Nx2es4mXxStXrl-TZr5K/exec';
 const post = body => fetch(API, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(body) }).then(r => r.json());
 
 // Consulta el estado actual; conserva fecha y horario elegidos si siguen libres
